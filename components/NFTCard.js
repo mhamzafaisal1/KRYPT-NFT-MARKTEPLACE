@@ -56,7 +56,7 @@ const NFTCard = ({ nftItem, title, listings }) => {
                             <div className={style.priceTag}>Price</div>
                             <div className={style.priceValue}>
                                 <img
-                                    src={'/ethereum.svg'}
+                                    src={'/eth.png'}
                                     alt="eth"
                                     className={style.ethLogo}
                                 />

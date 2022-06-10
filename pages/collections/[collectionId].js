@@ -118,11 +118,7 @@ const Collection = () => {
             <div className={style.bannerImageContainer}>
                 <img
                     className={style.bannerImage}
-                    src={
-                        collection?.bannerImageUrl
-                            ? collection.bannerImageUrl
-                            : 'https://via.placeholder.com/200'
-                    }
+                    src={'/bg.jpg'}
                     alt="banner"
                 />
             </div>
@@ -130,11 +126,7 @@ const Collection = () => {
                 <div className={style.midRow}>
                     <img
                         className={style.profileImg}
-                        src={
-                            collection?.imageUrl
-                                ? collection.imageUrl
-                                : 'https://via.placeholder.com/200'
-                        }
+                        src={'/bayclogo.png'}
                         alt="profile image"
                     />
                 </div>
@@ -185,22 +177,22 @@ const Collection = () => {
                         <div className={style.collectionStat}>
                             <div className={style.statValue}>
                                 <img
-                                    src={'/ethereum.svg'}
+                                    src={'/eth.png'}
                                     alt="eth"
                                     className={style.ethLogo}
                                 />
-                                {collection?.floorPrice}
+                                97
                             </div>
                             <div className={style.statName}>floor price</div>
                         </div>
                         <div className={style.collectionStat}>
                             <div className={style.statValue}>
                                 <img
-                                    src={'/ethereum.svg'}
+                                    src={'/eth.png'}
                                     alt="eth"
                                     className={style.ethLogo}
                                 />
-                                {collection?.volumeTraded}.5K
+                                393.5K
                             </div>
                             <div className={style.statName}>volume traded</div>
                         </div>
